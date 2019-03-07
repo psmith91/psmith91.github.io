@@ -1,0 +1,202 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+
+<style>
+.page-item > .hero-shot
+{  -webkit-filter: 
+filter: brightness(50%);
+}
+a:hover > .page-item > .hero-shot{  -webkit-filter: unset;
+  -moz-filter: unset;
+  -o-filter: unset;
+  -ms-filter: unset;
+  filter: unset;
+transform: unset;
+    transition:  .4s ease-in-out;
+}
+</style>
+
+
+
+
+<script src="https://psmith91.github.io/cardiconinfo.js"></script>
+
+
+
+<script async defer src="https://static.mosaicabq.church/nucleusCardIcons.js"></script>
+
+
+ <style>
+.pages-landing.dark .pages-items {
+   background: #ffffff;
+}
+</style>
+
+<style>
+.media-hero{
+display: none
+}
+</style>
+
+
+
+<style type="text/css">
+.card-slide-ribbon { display: none !important;}
+</style>
+
+
+
+<style type="text/css">
+.card-slide-overlay { display: none !important;}
+</style>
+
+
+
+<style type="text/css">.swiper-slide > .card-slide > h2 {
+display: none;
+}</style>
+
+
+
+<style>
+.pages-container .hero-shot, .card-slide .page-item{
+transition: all .3s ease-in-out;
+}
+</style>
+
+<style>
+a:hover > .page-item > .hero-shot{  -webkit-filter: unset;
+  -moz-filter: brightness(65%);
+  -o-filter:brightness (65%);
+  -ms-filter: brightness(65%);
+  filter: brightness(65%);
+    transition: .5s;
+}
+a:hover > .page-item > .hero-shot{ 
+        transform: scale(1.1);
+    transition:  1s;}
+</style>
+
+
+<style>
+.page-item-ribbon {
+display: none;
+}
+</style>
+
+
+
+<style type="text/css">
+.dark .pages-hero.mynucleus-hero  { background-blend-mode: normal; }
+</style>
+
+
+<style type="text/css">
+.page-item-image-overlay { display: none !important;}
+</style>
+
+
+<script type="application/javascript">
+document.onreadystatechange = function () {
+if (document.readyState == "interactive") {
+var copyrightEL = document.querySelector('.copyright');
+var mapframe = document.createElement('iframe');
+mapframe.src = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13310.189525382108!2d-111.929366!3d33.487133!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7cb1e84e4059796c!2sFBC+Scottsdale!5e0!3m2!1sen!2sus!4v1551132942650";
+mapframe.width="100%";mapframe.height="350";mapframe.frameborder="0"; mapframe.style="border:0;border-radius:3px;";mapframe.setAttribute('allowfullscreen','');
+copyrightEL.parentNode.insertBefore(mapframe, copyrightEL.parentNode.querySelector('ul.social'));
+}
+}
+</script>
+
+
+<style>
+.page-item-vertical > .page-item-content > h2 {
+text-align: center;
+visibility: hidden;
+}
+</style>
+
+<style>
+.nucleus-navigation{
+opacity: 1;
+}
+</style>
+
+
+
+
+<style>
+
+@media (min-width: 767px){
+.dark .nucleus-navigation-wrap {
+top:-762px;}
+
+.card-hero {
+position: absolute;
+z-index:10;
+}
+
+.primary-level>li>a {
+Top: 675px;
+z-index: 10
+}
+
+ .pages-desktop-logo {
+position: absolute;
+left: -15px;
+top: -15px;
+width: 100px;
+opacity: 2;
+}
+}
+
+
+</style>
+
+<style>
+.dark .nucleus-navigation .primary-level>li>a {
+    color: rgba(255, 255, 255, 1);
+}
+</style>
+
+
+<style type="text/css">
+.page-item-horizontal {
+padding-top: 300px !important;}
+</style>
+
+<style type="text/css">
+.pages-footer { padding-top: 160px; }
+</style> 
+
+
+<style>
+.pages-hero.mynucleus-hero {
+    padding-bottom: 575px;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+</style>
+
+<link rel="stylesheet" href="https://psmith91.github.io/icons.css">
+
+
+
+<style>
+@keyframes slideInFromLeft {
+    0% {
+        transform: scale(.5);
+    }
+    100% {
+        transform: scale(1);
+}}
+ .pages-intro {
+animation: 1.5s ease-out 0s 1 slideInFromLeft;
+margin-top: 125px;
+text-align: center;
+display: none;
+}
+</style>
